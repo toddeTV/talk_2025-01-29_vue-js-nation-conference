@@ -58,6 +58,14 @@ src: content/talk-overview.md
 ---
 
 ---
+src: content/gltf-introduction.md
+---
+
+---
+src: content/gltf-example.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 

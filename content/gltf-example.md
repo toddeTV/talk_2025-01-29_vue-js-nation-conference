@@ -1,0 +1,152 @@
+---
+layout: two-cols
+---
+
+# glTF example
+
+::left::
+
+<WindowWrapper max-height background="#F5F5F5">
+````md magic-move {lines: true}
+```json {*}
+{
+    asset: {},
+    scenes: [],
+    nodes: [],
+    materials: [],
+    meshes: [],
+    textures: [],
+    images: [],
+    accessors: [],
+    bufferViews: [],
+    samplers: [],
+    buffers: [],
+    animations: []
+}
+```
+```json {3-14}
+{
+    asset: {},
+    scenes: [
+		{
+			"extras":{
+			},
+			"name":"Island",
+			"nodes":[
+				0,
+				1,
+				42,
+			]
+		}
+    ],
+    nodes: [],
+    materials: [],
+    meshes: [],
+    textures: [],
+    images: [],
+    accessors: [],
+    bufferViews: [],
+    samplers: [],
+    buffers: [],
+    animations: []
+}
+```
+```json {4-19}
+{
+    asset: {},
+    scenes: [],
+    nodes: [
+		{
+			"mesh":4,
+			"name":"zlig.island.lvl0_seabed.001",
+			"scale":[
+				150,
+				1,
+				150
+			],
+			"translation":[
+				0,
+				-15,
+				0
+			]
+		}
+    ],
+    materials: [],
+    meshes: [],
+    textures: [],
+    images: [],
+    accessors: [],
+    bufferViews: [],
+    samplers: [],
+    buffers: [],
+    animations: []
+}
+```
+```json {6-23}
+{
+    asset: {},
+    scenes: [],
+    nodes: [],
+    materials: [],
+    meshes: [
+		{
+			"name":"Plane.011",
+			"primitives":[
+				{
+					"attributes":{
+						"POSITION":0,
+						"NORMAL":1,
+						"TEXCOORD_0":2
+					},
+					"extensions":{},
+					"indices":3,
+					"material":0,
+					"mode":4
+				}
+			]
+		},
+    ],
+    textures: [],
+    images: [],
+    accessors: [],
+    bufferViews: [],
+    samplers: [],
+    buffers: [],
+    animations: []
+}
+```
+```json {8-12,16-21}
+{
+    asset: {},
+    scenes: [],
+    nodes: [],
+    materials: [],
+    meshes: [],
+    textures: [],
+    images: [
+		{
+			"uri": "image01.png"
+		}
+    ],
+    accessors: [],
+    bufferViews: [],
+    samplers: [],
+    buffers: [
+		{
+			"uri": "buffer01.bin",
+			"byteLength": 612368
+		}
+    ],
+    animations: []
+}
+```
+````
+</WindowWrapper>
+
+::right::
+
+## Scene Graph
+
+<img
+    src="/assets/figma-project/exports/scene-graph.svg"
+/>
