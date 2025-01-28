@@ -88,11 +88,11 @@ type foo = { bar: 2 }
 This project uses the following icon collections in descending order, try sticking to them and use from top to bottom.
 Tipp: Favorite them and use the search over all item collections at once: https://icon-sets.iconify.design/?list=favorite
 
-| full name               | shorthand      | license                                                         | note           |
-| ----------------------- | -------------- | --------------------------------------------------------------- | -------------- |
-| `Material Design Icons` | `mdi`          | Apache 2.0 (commercial use is allowed, no attribution required) |                |
-| `Ant Design Icons`      | `ant-design`   | MIT                                                             |                |
-| `Simple Icons`          | `simple-icons` | CC0 1.0                                                         |                |
+| full name               | shorthand      | license                                                         | note |
+| ----------------------- | -------------- | --------------------------------------------------------------- | ---- |
+| `Material Design Icons` | `mdi`          | Apache 2.0 (commercial use is allowed, no attribution required) |      |
+| `Ant Design Icons`      | `ant-design`   | MIT                                                             |      |
+| `Simple Icons`          | `simple-icons` | CC0 1.0                                                         |      |
 
 ### Docs and helper websites
 
@@ -124,13 +124,14 @@ Used programs/ softwares, services and dependencies - besides the ones in `./pac
 - [GitHub Copilot](https://github.com/features/copilot) was used in private mode for programming questions.
 - [Slidev](https://github.com/slidevjs/slidev) used for creating the slides of the talk.
 - [ChatGPT](https://chatgpt.com/) used for DALL-E image generation, text based questions and programming code generation.
+- [Figma](https://www.figma.com/) used for SVG asset creations.
 
 Used assets/ materials including images and 3D models:
 
 - Game Project `zlig` hosted on [https://zlig.net/](https://zlig.net/) with source code on [https://github.com/toddeTV/zlig](https://github.com/toddeTV/zlig). Included materials in `zlig` are listed separately there as they are not part of this presentation project.
 - Portrait from `Thorsten Seyschab` by [Franziska Kestel](https://franziskakestel.de/).
-- Logo for `TresJS` from [https://tresjs.org/](https://tresjs.org/)
-- Logo for `ThreeJS` from [https://discourse.threejs.org/t/three-js-svg-logo/21835](https://discourse.threejs.org/t/three-js-svg-logo/21835)
+- Logo for `TresJS` from [https://tresjs.org/](https://tresjs.org/).
+- Logo for `ThreeJS` from [https://discourse.threejs.org/t/three-js-svg-logo/21835](https://discourse.threejs.org/t/three-js-svg-logo/21835).
 - Logo for `WebGL` from [https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg](https://en.m.wikipedia.org/wiki/File:WebGL_Logo.svg).
 
 ## License
