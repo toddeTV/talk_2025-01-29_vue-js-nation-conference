@@ -66,6 +66,10 @@ src: content/gltf-example.md
 ---
 
 ---
+src: content/framework-render-pipeline.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 
