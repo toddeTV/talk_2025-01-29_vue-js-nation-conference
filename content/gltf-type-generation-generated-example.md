@@ -30,7 +30,7 @@ export const IslandScene: {
 export function getNode(spec: typeof IslandScene): Promise<Group>
 export function getNode(spec: typeof IslandScene.island): Promise<Group>
 export function getNode(spec: typeof IslandScene.island.beach): Promise<Group>
-export function getNode(spec: typeof IslandScene.island.beach.rock001): 
+export function getNode(spec: typeof IslandScene.island.beach.rock001):
   Promise<Mesh>
 
 export {}
@@ -60,7 +60,7 @@ export const IslandScene = {
   },
 }
 export async function getNode(spec) {
-  let node = 
+  let node =
     { children: (await loadModel()).scenes }
   for (const idx of spec[path]) {
     node = node.children[idx]
