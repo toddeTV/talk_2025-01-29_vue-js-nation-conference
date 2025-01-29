@@ -6,7 +6,7 @@ layout: basic
     <simple-icons:unjs class="baseColor mr-2" />UnJs/Unplugin - our challenges with integrating
 </h1>
 
-<v-clicks>
+<v-clicks :depth="2">
 
 - <ant-design-frown-filled class="text-red-400" /> documentation not always correct, e.g. the doc for the `loadInclude` hook states:
 

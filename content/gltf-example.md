@@ -31,7 +31,7 @@ layout: two-cols
       {
         "extras":{
         },
-        "name":"Island",
+        "name":"IslandScene",
         "nodes":[
           0,
           1,
@@ -58,7 +58,7 @@ layout: two-cols
     nodes: [
       {
         "mesh":4,
-        "name":"zlig.island.lvl0_seabed.001",
+        "name":"Island",
         "scale":[
           150,
           1,
@@ -90,7 +90,7 @@ layout: two-cols
     materials: [],
     meshes: [
       {
-        "name":"Plane.011",
+        "name":"rock001",
         "primitives":[
           {
             "attributes":{
@@ -125,7 +125,7 @@ layout: two-cols
     textures: [],
     images: [
       {
-        "uri": "image01.png"
+        "uri": "IslandTexture01.png"
       }
     ],
     accessors: [],
@@ -133,7 +133,7 @@ layout: two-cols
     samplers: [],
     buffers: [
       {
-        "uri": "buffer01.bin",
+        "uri": "IslandModel.bin",
         "byteLength": 612368
       }
     ],
