@@ -28,16 +28,16 @@ layout: two-cols
 {
     asset: {},
     scenes: [
-    {
-      "extras":{
-      },
-      "name":"Island",
-      "nodes":[
-        0,
-        1,
-        42,
-      ]
-    }
+      {
+        "extras":{
+        },
+        "name":"Island",
+        "nodes":[
+          0,
+          1,
+          42,
+        ]
+      }
     ],
     nodes: [],
     materials: [],
@@ -56,20 +56,20 @@ layout: two-cols
     asset: {},
     scenes: [],
     nodes: [
-    {
-      "mesh":4,
-      "name":"zlig.island.lvl0_seabed.001",
-      "scale":[
-        150,
-        1,
-        150
-      ],
-      "translation":[
-        0,
-        -15,
-        0
-      ]
-    }
+      {
+        "mesh":4,
+        "name":"zlig.island.lvl0_seabed.001",
+        "scale":[
+          150,
+          1,
+          150
+        ],
+        "translation":[
+          0,
+          -15,
+          0
+        ]
+      }
     ],
     materials: [],
     meshes: [],
@@ -89,22 +89,22 @@ layout: two-cols
     nodes: [],
     materials: [],
     meshes: [
-    {
-      "name":"Plane.011",
-      "primitives":[
-        {
-          "attributes":{
-            "POSITION":0,
-            "NORMAL":1,
-            "TEXCOORD_0":2
-          },
-          "extensions":{},
-          "indices":3,
-          "material":0,
-          "mode":4
-        }
-      ]
-    },
+      {
+        "name":"Plane.011",
+        "primitives":[
+          {
+            "attributes":{
+              "POSITION":0,
+              "NORMAL":1,
+              "TEXCOORD_0":2
+            },
+            "extensions":{},
+            "indices":3,
+            "material":0,
+            "mode":4
+          }
+        ]
+      },
     ],
     textures: [],
     images: [],
@@ -124,18 +124,18 @@ layout: two-cols
     meshes: [],
     textures: [],
     images: [
-    {
-      "uri": "image01.png"
-    }
+      {
+        "uri": "image01.png"
+      }
     ],
     accessors: [],
     bufferViews: [],
     samplers: [],
     buffers: [
-    {
-      "uri": "buffer01.bin",
-      "byteLength": 612368
-    }
+      {
+        "uri": "buffer01.bin",
+        "byteLength": 612368
+      }
     ],
     animations: []
 }
