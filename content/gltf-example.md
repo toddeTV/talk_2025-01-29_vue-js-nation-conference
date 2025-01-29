@@ -145,7 +145,7 @@ layout: two-cols
 
 ::right::
 
-## Scene Graph
+## Object Hierarchy
 
 <img
     src="/assets/figma-project/exports/scene-graph.svg"
@@ -171,3 +171,5 @@ layout: two-cols
   class="absolute top-120 left-164 w-15 h-7"
   v-mark="{ at: [4,5], color: '#26ab7a', type: 'box' }"
 />
+
+<!-- ... defines the scene graph -->
