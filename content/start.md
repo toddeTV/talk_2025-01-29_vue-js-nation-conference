@@ -27,28 +27,28 @@ leftOrientation: center
     >
         <div class="flex">
             <mdi-web class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://todde.tv/">todde.tv</a>
+            <MyLink to="https://todde.tv/">todde.tv</MyLink>
         </div>
         <div class="flex">
             <mdi-github class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://github.com/toddeTV">toddeTV</a>
+            <MyLink to="https://github.com/toddeTV">toddeTV</MyLink>
         </div>
         <div class="flex">
             <mdi-linkedin class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/toddetv/">toddeTV</a>
+            <MyLink to="https://www.linkedin.com/in/toddetv/">toddeTV</MyLink>
         </div>
         <div class="flex">
             <simple-icons-x class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://x.com/toddeTV">toddeTV</a>
+            <MyLink to="https://x.com/toddeTV">toddeTV</MyLink>
         </div>
         <div class="flex">
             <!-- TODO wrong discord URI? -->
             <mdi-discord class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://discordapp.com/users/todde.tv/">todde.tv</a>
+            <MyLink to="https://discordapp.com/users/todde.tv/">todde.tv</MyLink>
         </div>
         <div class="flex">
             <simple-icons-bluesky class="baseColor mt-0.5 mr-2" />
-            <a rel="noopener noreferrer" target="_blank" href="https://bsky.app/profile/todde.tv">todde.tv</a>
+            <MyLink to="https://bsky.app/profile/todde.tv">todde.tv</MyLink>
         </div>
     </div>
 </div>

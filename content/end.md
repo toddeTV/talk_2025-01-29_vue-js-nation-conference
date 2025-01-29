@@ -5,7 +5,7 @@ layout: basic
 # Game, Code & Licenses
 
 <div class="absolute right-15 top-15 p-1 pr-2" v-mark="{ at: 0, color: '#26ab7a', type: 'box' }">
-    <mdi-heart class="text-red-400 animate-pulse mx-2" /> Andreas Fehn <mdi-github class="baseColor mx-2" /> <a href="https://github.com/fehnomenal" target="_blank">fehnomenal</a>
+    <mdi-heart class="text-red-400 animate-pulse mx-2" /> Andreas Fehn <mdi-github class="baseColor mx-2" /> <MyLink to="https://github.com/fehnomenal">fehnomenal</MyLink>
 </div>
 
 <div class="flex flex-row gap-8 mt-8">
@@ -20,7 +20,7 @@ layout: basic
             </div>
             <div class="whitespace-nowrap">
                 <mdi-web class="baseColor mx-2" />
-                <a rel="noopener noreferrer" target="_blank" href="https://zlig.net/">https://zlig.net/</a>
+                <MyLink to="https://zlig.net/">https://zlig.net/</MyLink>
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@ layout: basic
             </div>
             <div class="whitespace-nowrap">
                 <mdi-github class="baseColor mx-2" />
-                <a rel="noopener noreferrer" target="_blank" href="https://github.com/toddeTV/zlig">https://github.com/toddeTV/zlig</a>
+                <MyLink to="https://github.com/toddeTV/zlig">https://github.com/toddeTV/zlig</MyLink>
             </div>
         </div>
     </div>
@@ -50,7 +50,7 @@ layout: basic
             </div>
             <div class="w-full">
                 <mdi-github class="baseColor mx-2" />
-                <a rel="noopener noreferrer" target="_blank" href="https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference">https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference</a>
+                <MyLink to="https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference">https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference</MyLink>
             </div>
         </div>
     </div>

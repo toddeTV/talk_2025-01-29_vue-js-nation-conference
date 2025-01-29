@@ -19,15 +19,14 @@ const pageProcess = computed(() => {
   <!-- infos: left website hyperlink and right the page number -->
   <footer class="absolute bottom-0 left-0 w-full px-14 pb-8 -z-1">
     <div class="w-full flex justify-between">
-      <a
+      <MyLink
         v-if="configs.author.website"
         class="mb-0 baseColor !border-b-0"
-        :href="`https://${configs.author.website}`"
-        target="_blank"
+        :to="`https://${configs.author.website}`"
       >
         <mdi-web class="baseColor mr-1" />
         {{ configs.author.website }}
-      </a>
+      </MyLink>
       <div class="baseColor">
         <span>{{ currentPage }}</span>
         <span v-if="configs.themeConfig.showTotalPageCount"> / {{ total }}</span>
