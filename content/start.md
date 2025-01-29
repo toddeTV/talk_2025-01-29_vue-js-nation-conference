@@ -5,12 +5,14 @@ leftOrientation: center
 
 <div class="relative">
     <h1 class="!text-5xl">Your Own Vite Plugin?<br>That's as easy as 1 2 3(D)</h1>
+    <div class="absolute w-24 left-52 top-7" v-mark="{ at: 3, color: '#ab2657', type: 'underline' }"></div>
     <div class="absolute w-24 left-52 top-5" v-mark="{ at: 3, color: '#ab2657', type: 'underline' }"></div>
+    <div class="absolute w-24 left-52 top-6" v-mark="{ at: 3, color: '#ab2657', type: 'underline' }"></div>
 </div>
 
 <div class="flex flex-col relative">
     <div>
-        with <span class="color-[#ab2657]">Thorsten Seyschab</span>
+        with <span class="color-[#26ab7a]">Thorsten Seyschab</span>
     </div>
     <ul class="absolute top-10" v-click="1">
         <li>Computer Scientist and Web Engineer</li>

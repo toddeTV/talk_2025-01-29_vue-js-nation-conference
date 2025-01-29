@@ -38,9 +38,9 @@ Development VM ID from Thorsten Seyschab for this project: `014`<br>
    and use this alternative login mechanic.
 6. Duplicate `.env.example` as `.env` and set the environment variables:
    1. You must set the variable `VITE_ZLIG_DEMO_BASE_URL` with the base URL of the `zlig` demo branch
-      [feat/conference-2025-vue-js-nation](https://github.com/toddeTV/zlig/tree/feat/conference-2025-vue-js-nation).
+      [chore/conference-2025-vue-js-nation](https://github.com/toddeTV/zlig/tree/chore/conference-2025-vue-js-nation).
       Therefore, you can pull this branch and use it locally (recommended!), or use the pre-build dev demo URL
-      from the `zlig` PR [//TODO] (not recommended!).
+      from the `zlig` [PR #138](https://github.com/toddeTV/zlig/pull/138) (not recommended!).
 7. Install dependencies: `pnpm i`
 8. Happy coding <3
 
