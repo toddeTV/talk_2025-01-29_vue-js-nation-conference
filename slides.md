@@ -106,6 +106,10 @@ src: content/unplugin-overview-challenges.md
 ---
 
 ---
+src: content/gltf-type-toolkit.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 
