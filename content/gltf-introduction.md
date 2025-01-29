@@ -39,11 +39,10 @@ layout: basic
 <div class="flex flex-row justify-between w-full gap-0">
     <div
         v-click="3"
-        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-80 mt-20"
+        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-75 mt-20"
     >
         <div class="text-2xl mr-2">glTF 2.0 Seperated</div>
         <div>
-            3 file types:
             <ul>
                 <li><code>.gltf</code> as JSON meta file</li>
                 <li><code>.bin</code> as binary encoded buffers</li>
@@ -53,7 +52,7 @@ layout: basic
     </div>
     <div
         v-click="4"
-        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-65 mt-20"
+        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-55 mt-20"
     >
         <div class="text-2xl mr-2">glTF 2.0 Embedded</div>
         <div>
@@ -62,11 +61,14 @@ layout: basic
     </div>
     <div
         v-click="5"
-        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-50 mt-20"
+        class="flex-grow-0 flex-shrink-0 flex flex-col justify-start items-start w-73 mt-20"
     >
         <div class="text-2xl mr-2">glTF 2.0 Binary</div>
         <div>
-            One binary encoded <code>.glb</code> file.
+            <ul>
+                <li>One binary encoded <code>.glb</code> file</li>
+                <li>[optional] references external files</li>
+            </ul>
         </div>
     </div>
 </div>

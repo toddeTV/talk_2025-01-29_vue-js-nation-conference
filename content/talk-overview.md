@@ -77,7 +77,7 @@ layout: basic
             <li>Nuxt</li>
             <li>Astro</li>
             <li>React</li>
-            <li>Nest</li>
+            <li>Next</li>
             <li>Svelte</li>
             <li>Angular</li>
         </ul>
