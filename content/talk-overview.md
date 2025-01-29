@@ -28,6 +28,7 @@ layout: basic
         >
             <span class="text-2xl">Vite Plugin</span>
             <div class="absolute w-13 left-0 top-4" v-mark="{ at: 6, color: '#ab2657', type: 'underline' }"></div>
+            <div class="absolute w-13 left-0 top-5" v-mark="{ at: 6, color: '#ab2657', type: 'underline' }"></div>
         </div>
         <ul
             class="mt-7"
@@ -66,6 +67,7 @@ layout: basic
         >
             <span class="text-2xl">Vue Project</span>
             <div class="absolute w-13 left-0 top-4" v-mark="{ at: 6, color: '#ab2657', type: 'underline' }"></div>
+            <div class="absolute w-13 left-0 top-5" v-mark="{ at: 6, color: '#ab2657', type: 'underline' }"></div>
         </div>
         <ul
             class="mt-7"
@@ -86,8 +88,7 @@ layout: basic
     v-bind="{ x1:240, y1:155, x2:290, y2:155, color: '#26ab7a' }"
 />
 <Arrow
-    v-click="4"
-    v-click.hide="7"
+    v-click="[4,7]"
     v-bind="{ x1:490, y1:155, x2:785, y2:155, color: '#26ab7a' }"
 />
 <Arrow
