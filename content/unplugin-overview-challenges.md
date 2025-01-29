@@ -15,9 +15,11 @@ layout: basic
   but this is not true for the implementation for the farm bundler (if omitted it assumes the file to be skipped)
 
 - <ant-design-frown-filled class="text-red-400" /> esbuild does only allow watching files during specific phases of the build process
+
   - this limits the watch benefits for esbuild as it might not detect added/ updated models
 
 - <ant-design-frown-filled class="text-red-400" /> `emitFiles` does not provide a way to retrieve the generated filename.
+
   - reason is that for some bundler implementations this simply writes a file into the out dir (see esbuild)
   - solution is to simply generate fixed filenames that bundlers take without modifications
 

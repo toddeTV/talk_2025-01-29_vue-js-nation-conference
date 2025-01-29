@@ -17,7 +17,7 @@ layout: basic
 <v-clicks>
 
 - Unified plugin system for build tools.
-- *"jQuery for build tools"* [@TheAlexLichter](https://www.lichter.io/)
+- _"jQuery for build tools"_ [@TheAlexLichter](https://www.lichter.io/)
 - <span class="block">supports:</span>
   <img src="/assets/supported-build-tools-from-unplugin.unjs.io.png" class="block" />
   <span class="block text-right text-xs">image source 2025-01-29 @ https://unplugin.unjs.io/</span>
