@@ -28,6 +28,7 @@
   },
   "scripts": {
     "build": "slidev build",
+    "serve": "pnpx serve dist",
     "dev": "slidev --open",
     "dev:network": "run-s \"dev --remote\"",
     "export": "slidev export",
