@@ -13,12 +13,27 @@ layout: basic
         class="p-4 flex flex-col items-center"
         v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
     >
+        <QRCode value="https://github.com/toddeTV/gltf-type-toolkit" :size="128" class="mb-6" />
+        <div class="flex flex-col gap-2">
+            <div class="whitespace-nowrap">
+                @todde.tv/gltf-type-toolkit
+            </div>
+            <div class="w-full text-sm">
+                <mdi-github class="baseColor mx-2" />
+                <MyLink to="https://github.com/toddeTV/gltf-type-toolkit">https://github.com/toddeTV/gltf-type-toolkit</MyLink>
+            </div>
+        </div>
+    </div>
+    <div
+        class="p-4 flex flex-col items-center"
+        v-mark="{ at: 0, color: '#26ab7a', type: 'box' }"
+    >
         <QRCode value="https://zlig.net/" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
                 Game Online:
             </div>
-            <div class="whitespace-nowrap">
+            <div class="w-full text-sm whitespace-nowrap">
                 <mdi-web class="baseColor mx-2" />
                 <MyLink to="https://zlig.net/">https://zlig.net/</MyLink>
             </div>
@@ -31,9 +46,9 @@ layout: basic
         <QRCode value="https://github.com/toddeTV/zlig" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
-                Game Source-Code:
+                Game Source:
             </div>
-            <div class="whitespace-nowrap">
+            <div class="w-full text-sm">
                 <mdi-github class="baseColor mx-2" />
                 <MyLink to="https://github.com/toddeTV/zlig">https://github.com/toddeTV/zlig</MyLink>
             </div>
@@ -46,9 +61,9 @@ layout: basic
         <QRCode value="https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference" :size="128" class="mb-6" />
         <div class="flex flex-col gap-2">
             <div class="whitespace-nowrap">
-                Presentation slides Source-Code:
+                Presentation Slides Source:
             </div>
-            <div class="w-full">
+            <div class="w-full text-sm">
                 <mdi-github class="baseColor mx-2" />
                 <MyLink to="https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference">https://github.com/toddeTV/talk_2025-01-29_vue-js-nation-conference</MyLink>
             </div>
