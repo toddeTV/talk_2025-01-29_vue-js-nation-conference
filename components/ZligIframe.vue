@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-const props = defineProps<{
-  url: string
-}>()
+const props = withDefaults(defineProps<{
+  url?: string
+}>(), {
+  url: '',
+})
 
 const zligDemoBaseUrl = computed<string | undefined>(() => {
   const zligDemoBaseUrl = import.meta.env.VITE_ZLIG_DEMO_BASE_URL

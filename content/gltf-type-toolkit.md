@@ -5,7 +5,7 @@ layout: basic
 # @todde.tv/gltf-type-toolkit
 
 <div class="absolute right-15 top-10 p-1 pr-2" v-mark="{ at: 0, color: '#26ab7a', type: 'box' }">
-    <mdi-heart class="text-red-400 animate-pulse mx-2" /> Andreas Fehn <mdi-github class="baseColor mx-2" /> <a to="https://github.com/fehnomenal">fehnomenal</a>
+    <mdi-heart class="text-red-400 animate-pulse mx-2" /> Andreas Fehn <mdi-github class="baseColor mx-2" /> <MyLink to="https://github.com/fehnomenal">fehnomenal</MyLink>
 </div>
 
 <!-- <WindowWrapper max-height>
