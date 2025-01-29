@@ -98,6 +98,14 @@ src: content/load-a-gltf-file-solution.md
 ---
 
 ---
+src: content/unplugin-overview.md
+---
+
+---
+src: content/unplugin-overview-challenges.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 
