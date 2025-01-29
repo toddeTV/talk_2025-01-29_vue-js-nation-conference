@@ -3,7 +3,7 @@ layout: basic
 ---
 
 <div class="flex flex-col gap-3 mt-3">
-    <div 
+    <div
         class="flex flex-row justify-center gap-20"
         v-click="3"
     >
