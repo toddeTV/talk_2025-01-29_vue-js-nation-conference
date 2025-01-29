@@ -8,7 +8,7 @@ layout: basic
 
 - run `three.js` in node dev and pipe model into it, we then get the runtime object
   - <ant-design-smile-filled class="text-green-400" /> No own parsing
-  - <ant-design-smile-filled class="text-green-400" /> Exact what the user gets when he loads the model in his runtime
+  - <ant-design-smile-filled class="text-green-400" /> Exact what the user gets when they load the model in their runtime
 - generate types out of the runtime object by taking the names of all children
 - store scene graph paths with the child indices linked to the child names
 - use handlebars to generate files

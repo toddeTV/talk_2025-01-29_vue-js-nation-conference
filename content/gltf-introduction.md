@@ -70,29 +70,3 @@ layout: basic
         </div>
     </div>
 </div>
-
-<div
-    class="absolute top-78 left-10 w-168 h-52"
-    v-click="6"
-    v-mark="{ at: 6, color: '#26ab7a', type: 'box' }"
->
-</div>
-<div
-    class="absolute top-78 left-187 w-55 h-52"
-    v-click="6"
-    v-mark="{ at: 6, color: '#26ab7a', type: 'box' }"
->
-</div>
-
-<div
-    class="absolute top-135 left-80 text-2xl color-[#26ab7a]"
-    v-click="6"
->
-    text encoded
-</div>
-<div
-    class="absolute top-135 left-193 text-2xl color-[#26ab7a]"
-    v-click="6"
->
-    binary encoded
-</div>
