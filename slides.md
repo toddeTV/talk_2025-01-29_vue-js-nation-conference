@@ -70,6 +70,10 @@ src: content/framework-render-pipeline.md
 ---
 
 ---
+src: content/load-a-gltf-file.md
+---
+
+---
 src: content/zlig-demo.md
 ---
 
