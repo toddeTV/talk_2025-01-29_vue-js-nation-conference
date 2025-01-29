@@ -74,6 +74,10 @@ src: content/load-a-gltf-file.md
 ---
 
 ---
+src: content/load-a-gltf-file-problems.md
+---
+
+---
 src: content/gltf-type-generation.md
 ---
 
@@ -87,6 +91,10 @@ src: content/gltf-type-generation-implementation.md
 
 ---
 src: content/gltf-type-generation-generated-example.md
+---
+
+---
+src: content/load-a-gltf-file-solution.md
 ---
 
 ---
