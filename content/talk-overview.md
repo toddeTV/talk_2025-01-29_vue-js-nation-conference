@@ -79,6 +79,7 @@ layout: basic
             <li>React</li>
             <li>Nest</li>
             <li>Svelte</li>
+            <li>Angular</li>
         </ul>
     </div>
 </div>
