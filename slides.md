@@ -114,5 +114,9 @@ src: content/zlig-demo.md
 ---
 
 ---
+src: content/talk-takeaway.md
+---
+
+---
 src: content/end.md
 ---
